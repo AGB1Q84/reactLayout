@@ -1,0 +1,77 @@
+.header {
+    height: 77px;
+}
+
+.header__row {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 3px;
+    padding-left: 165px;
+}
+
+.header__logo div {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+  }
+  
+  .logo-text {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .subtext {
+    font-weight: normal;
+    font-size: 15.37px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+  }
+
+.header__nav ul {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    padding-right: 165px;
+}
+
+.header__nav a {
+    color: var(--white);
+    height: 20px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.header__nav a.get-started-link {
+    color:#5895F0;
+}
+
+.get-started-link {
+    position: relative;
+   
+}
+
+.get-started-link::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 10px;
+    background-image: url('../../img/namatLOGO/Vector.svg');
+    background-size: cover;
+    margin-left: 8.67px;
+
+}
+
+  

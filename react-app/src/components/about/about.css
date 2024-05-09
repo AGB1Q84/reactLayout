@@ -1,0 +1,135 @@
+
+.about__us {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 847px;
+}
+
+.about__table {
+    position: absolute;
+    padding-left: 100px;
+    width: 990px;
+    height: 152px;
+    top: 682px;
+    left: 50%;
+    border-radius: 8px;
+    background-color: white;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(95, 95, 95, 0.2);
+}
+
+.about__table table {
+   border-collapse: collapse;    
+   width: 783px;
+   height: 68px;
+   margin-top: 34px;
+
+}
+
+.about__table th {
+    font-size: 20px ; 
+    font-weight: 500;
+    line-height: 26.25px;
+    text-align: left;
+}
+
+.about__table td {
+    border-right: 1px solid #BEBEBE;
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.25px;
+    padding-top: 6px ;
+}
+.about__table th,
+.about__table td {
+    padding: 6px 10px;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 214px;
+    padding-left: 360px;
+    padding-right: 300px;
+    
+}
+
+.about__desc {
+    width: 353px;
+    height: 210px;
+    flex: 1;
+}
+
+.about__desc h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 46.08px;
+    width: 333px;    
+}
+
+.about__desc p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.56px;
+    text-align: left;
+    width: 353px;
+    padding-top: 12px;
+}
+
+.about__nav {
+    height: 350px;
+    font-size: 16px;
+    line-height: 26.24px;
+    flex: 1;
+}
+
+
+.about__nav ul {
+    list-style-type: none;
+    width: 475px;
+}
+
+.about__nav li {
+    counter-increment: list-counter;
+    position: relative;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.about__nav li::before {
+    content: counter(list-counter, decimal-leading-zero) " ";
+    font-size: 32px; 
+    position: absolute; 
+    left: -30px;
+    color: #DEDEDE;
+}
+
+.about__foot {
+    width: 1091px;
+    height: 308px;
+    margin-left: -39px;
+    background: linear-gradient(white);
+}
+  
+.about__foot h1 {
+    font-size: 214px;
+    font-weight: 900;
+    line-height: 308.16px;
+    -webkit-text-stroke-width: 1px;
+    color: var(--white);
+    -webkit-text-stroke-color: #d8d6d6;
+    font-size: 214px;
+    font-weight: 900;
+    text-shadow: 0 5px 10px rgba(255, 255, 255, 0.7);
+}

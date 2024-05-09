@@ -1,0 +1,140 @@
+.contacts {
+    background-image: url(../../img/contact/map.png);
+    height: 681px;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.contacts__content {
+    display: flex;
+    background-color: var(--white);
+    width: 729px;
+    height: 508px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    border-image-slice: 10;
+    border-image-source: linear-gradient(141.87deg, #E8E8E8 3.69%, #FFFFFF 50.77%);
+    margin-top: 88px;
+    margin-left: 165px;
+    margin-bottom: 82px;
+    color: var(--lightBlack);
+}
+
+.content__b1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 42px;
+    padding-top: 49px;
+    list-style-type: none; 
+}
+
+.content__b1 h1 {
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 46.08px;
+    width: 179px;
+    height: 46px;
+}
+
+.content__b1__list ul {
+    padding-top: 49px;
+}
+
+.content__b1__list li {
+    position: relative;
+    margin-bottom: 24px;
+    padding-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+.content__b1__list li.mail::before {
+    background-image: url("../../img/contact/mail.png");
+}
+
+.content__b1__list li.phone::before {
+    background-image: url("../../img/contact/phone.png");
+}
+
+.content__b1__list li::before {
+    content: "";
+    display: inline-block;
+    width: 16.5px;
+    height: 16.5px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.content__b1__location {
+    padding-top: 56px;
+    width: 240px;
+    height: 72px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 24.08px;
+}
+
+.content__b1__icons {
+    padding-top: 84px;
+}
+
+.content__b1__icons img:nth-child(1),
+.content__b1__icons img:nth-child(2) {
+    margin-right: 16px; 
+}
+
+.content__b2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 77px;
+    padding-top: 120px;
+}
+
+.content__b2__input input {
+    height: 54px;
+}
+.content__b2__input textarea {
+    height: 86px;
+}
+
+.content__b2__input input,
+.content__b2__input textarea {
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 328px;
+}
+.content__b2__input input::placeholder {
+    position: relative;
+    top: -10px; 
+}
+
+.content__b2__input input::placeholder, 
+.content__b2__input textarea::placeholder {
+    font-size: 16px;
+    color: var(--lightBlack);
+}
+
+.content__btn {
+    background-color: #3074DA;
+    width: 328px;
+    height: 62px;
+    top: 396px;
+    left: 359px;
+    padding: 16px 24px 16px 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content__btn a {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}

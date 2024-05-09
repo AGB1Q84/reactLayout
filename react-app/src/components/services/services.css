@@ -1,0 +1,49 @@
+.services {
+    height: 752px;
+    padding-top: 96px;
+    padding-bottom: 56px;
+    background-color: white;
+}
+
+.services__header {
+    margin-bottom: 48px;
+    margin-left: 260px;
+}
+
+.services__header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 46.08px;
+}
+
+.services__header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.24px;
+    color: var(--gray);
+
+}
+
+.services__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.content__block__1 {
+    display: flex;
+    width: 826px;
+    height: 420px;
+    border-radius: 12px;
+    border: 1px solid;
+    margin-left: 165px;
+}
+
+.content__block__2 {
+    display: flex;
+    width: 826px;
+    height: 420px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+

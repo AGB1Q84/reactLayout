@@ -1,0 +1,15 @@
+:root {
+    --white: white;
+    --black: black;
+    --gray: #707281;
+    --lightBlack:#10152C;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #10152C;
+}
+
+.container { 
+    max-width: none
+}
